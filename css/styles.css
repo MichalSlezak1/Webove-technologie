@@ -33,7 +33,11 @@
 
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
       
-  
+  body{
+    background-image: url(../images/voidbg.jpg);
+    opacity: 0,3;
+  }
+
 .hlavne{
       background-color: rgb(255, 252, 252, 0.5);
       position: relative;
@@ -51,6 +55,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .gallery img{
+    display: inline-block;
+    margin: 0 10px;
+    width: 300px;
+    height: 300px;
   }
 
   header{
@@ -74,7 +84,7 @@
     height: 50px;
 }
 .footer img{
-  width: 40px;
-  height: 40px;
+  width: 65px;
+  height: 60px;
   border: 2px solid black;
 }
